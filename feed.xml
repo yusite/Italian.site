@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lingua italiana</title>
+    <atom:link href="http://it.yuz.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://it.yuz.me</link>
+    <description>Surviving in Italy</description>
+    <pubDate>Fri, 28 Feb 2014 01:00:00 +0100</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>The Start of My Italian Blog</title>
+      <link>http://it.yuz.me/articles/28-February-2014/</link>
+      <pubDate>Fri, 28 Feb 2014 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://it.yuz.me/articles/28-February-2014/</guid>
+      <author></author>
+      <description>&lt;p&gt;今天是我开始我的意大利语博客的第一天，开这个博客的主要目的是锻炼我的意大利语，如果有时间的话，会介绍意大利文化，分享有趣的意大利故事。&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
