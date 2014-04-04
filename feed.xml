@@ -4,17 +4,17 @@
     <title>Lingua italiana</title>
     <atom:link href="http://it.yuz.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://it.yuz.me</link>
-    <description>Surviving in Italy</description>
-    <pubDate>Fri, 28 Feb 2014 01:00:00 +0100</pubDate>
+    <description>un sito per la pratica</description>
+    <pubDate>Fri, 04 Apr 2014 02:00:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
-      <title>The Start of My Italian Blog</title>
-      <link>http://it.yuz.me/articles/28-February-2014/</link>
-      <pubDate>Fri, 28 Feb 2014 01:00:00 +0100</pubDate>
-      <guid isPermaLink="true">http://it.yuz.me/articles/28-February-2014/</guid>
+      <title>Nuova Casa 1</title>
+      <link>http://it.yuz.me/articles/nuova-casa-1/</link>
+      <pubDate>Fri, 04 Apr 2014 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://it.yuz.me/articles/nuova-casa-1/</guid>
       <author></author>
-      <description>&lt;p&gt;今天是我开始我的意大利语博客的第一天，开这个博客的主要目的是锻炼我的意大利语，如果有时间的话，会介绍意大利文化，分享有趣的意大利故事。&lt;/p&gt;
+      <description>&lt;p&gt;Mi sposto verso una nuova casa. C’è un piccolo mercato vicino al nostro appartamento, è un pò rumoroso alla mattina. Il padrone di casa è gentile. La camera è grande e comodo.&lt;/p&gt;
 </description>
     </item>
   </channel>
