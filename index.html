@@ -9,11 +9,11 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-    $(".qanda li p a").click(function(){
-        $(this).parent().parent().next().slideToggle(200);
+    $(".qanda li .button").click(function(){
+        $(this).parent().find(".answer").fadeToggle();
         return false;
     });
-    $(".qanda li p a").parent().parent().next().hide();
+    $(".qanda li .button").parent().find(".answer").hide();
     $("#footer").hide();
 });
 </script>
@@ -38,12 +38,12 @@ $(document).ready(function() {
 <div class="qlist qanda">
 <ol>
 <li>
-<p><em>今天是星期几？<a href="#">答案</a></em></p>
-<p>Che giorno è oggi?</p>
+<p><em>今天是星期几？ </em></p>
+<p><a href="#" class="button">答案：</a> <strong class="answer">Che giorno è oggi?</strong></p>
 </li>
 <li>
-<p><em>今天的日期是？<a href="#">答案</a></em></p>
-<p>Quanti ne abbiamo oggi?</p>
+<p><em>今天的日期是？ </em></p>
+<p><a href="#" class="button">答案：</a> <strong class="answer">Quanti ne abbiamo oggi?</strong></p>
 </li>
 </ol>
 </div>
@@ -55,32 +55,32 @@ $(document).ready(function() {
 <div class="qlist qanda">
 <ol>
 <li>
-<p><em>多好的一天啊！ <a href="#">答案</a></em></p>
-<p>È una bellissima goirnata!</p>
+<p><em>多好的一天啊！ </em></p>
+<p><a href="#" class="button">答案：</a> <strong class="answer">È una bellissima goirnata!</strong></p>
 </li>
 <li>
-<p><em>天气很热/冷 <a href="#">答案</a></em></p>
-<p>Fa molto caldo/freddo.</p>
+<p><em>天气很热/冷 </em></p>
+<p><a href="#" class="button">答案：</a> <strong class="answer">Fa molto caldo/freddo.</strong></p>
 </li>
 <li>
-<p><em>潮湿/多云 <a href="#">答案</a></em></p>
-<p>afoso/nuvoloso</p>
+<p><em>潮湿/多云 </em></p>
+<p><a href="#" class="button">答案：</a> <strong class="answer">Afoso/Nuvoloso</strong></p>
 </li>
 <li>
-<p><em>下雨 <a href="#">答案</a></em></p>
-<p>Piove</p>
+<p><em>下雨 </em></p>
+<p><a href="#" class="button">答案：</a> <strong class="answer">Piove</strong></p>
 </li>
 <li>
-<p><em>下雪 <a href="#">答案</a></em></p>
-<p>Nevica</p>
+<p><em>下雪 </em></p>
+<p><a href="#" class="button">答案：</a> <strong class="answer">Nevica</strong></p>
 </li>
 <li>
-<p><em>刮风了 <a href="#">答案</a></em></p>
-<p>C'è vento.</p>
+<p><em>刮风了 </em></p>
+<p><a href="#" class="button">答案：</a> <strong class="answer">C'è vento.</strong></p>
 </li>
 <li>
-<p><em>天气预报说了什么？ <a href="#">答案</a></em></p>
-<p>Come sono le previsioni?</p>
+<p><em>天气预报说了什么？ </em></p>
+<p><a href="#" class="button">答案：</a> <strong class="answer">Come sono le previsioni?</strong></p>
 </li>
 </ol>
 </div>
@@ -89,7 +89,7 @@ $(document).ready(function() {
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2014-04-12 14:51:09 CEST
+Last updated 2014-04-12 21:06:55 CEST
 </div>
 </div>
 </body>

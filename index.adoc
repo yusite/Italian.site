@@ -5,35 +5,30 @@
 :numbered:
 :linkcss:
 :stylesheet: mystyle.css
+:linkattrs:
 
 == 日期相关
 
 [qanda]
-今天是星期几？link:#[答案]::
-Che giorno è oggi?
-今天的日期是？link:#[答案]::
-Quanti ne abbiamo oggi?
+今天是星期几？ ::
+link:#[答案：, role="button"] [answer]*Che giorno è oggi?*
+今天的日期是？ ::
+link:#[答案：, role="button"] [answer]*Quanti ne abbiamo oggi?*
 
 == 天气相关
 
 [qanda]
-多好的一天啊！ link:#[答案]::
-È una bellissima goirnata!
-
-天气很热/冷 link:#[答案]::
-Fa molto caldo/freddo.
-
-潮湿/多云 link:#[答案]::
-afoso/nuvoloso
-
-下雨 link:#[答案]::
-Piove
-
-下雪 link:#[答案]::
-Nevica
-
-刮风了 link:#[答案]::
-C'è vento.
-
-天气预报说了什么？ link:#[答案]::
-Come sono le previsioni?
+多好的一天啊！ ::
+link:#[答案：, role="button"] [answer]*È una bellissima goirnata!*
+天气很热/冷 ::
+link:#[答案：, role="button"] [answer]*Fa molto caldo/freddo.*
+潮湿/多云 ::
+link:#[答案：, role="button"] [answer]*Afoso/Nuvoloso*
+下雨 ::
+link:#[答案：, role="button"] [answer]*Piove*
+下雪 ::
+link:#[答案：, role="button"] [answer]*Nevica*
+刮风了 ::
+link:#[答案：, role="button"] [answer]*C'è vento.*
+天气预报说了什么？ ::
+link:#[答案：, role="button"] [answer]*Come sono le previsioni?*
