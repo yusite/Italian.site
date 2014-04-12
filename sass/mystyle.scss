@@ -1,0 +1,17 @@
+@import "settings/foundation";
+@import "settings/mystyle.scss";
+@import "components/asciidoc";
+@import "components/awesome-icons";
+
+body {
+  font-family: "Helvetica Neue","Helvetica","Hiragino Sans GB","STHeiti","Microsoft YaHei","WenQuanYi Micro Hei",SimSun,Arial,sans-serif;
+}
+
+.qanda em {
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+.qanda em a {
+  color: #bd6982;
+}

@@ -1,0 +1,15 @@
+= 意大利语例句练习
+:author: 于子杰
+:email: feedback@yuz.me
+:toc: left
+:numbered:
+:linkcss:
+:stylesheet: mystyle.css
+
+== 日期相关
+
+[qanda]
+今天是星期几？link:#[显示答案]::
+  Che giorno è oggi?
+今天的日期是？link:#[显示答案]::
+  Quanti ne abbiamo oggi?
