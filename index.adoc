@@ -1,7 +1,7 @@
 = 意大利语例句练习
 :author: 于子杰
 :email: feedback@yuz.me
-:toc: left
+:toc:
 :numbered:
 :linkcss:
 :stylesheet: mystyle.css
