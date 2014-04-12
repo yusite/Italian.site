@@ -2,7 +2,7 @@
 <script>
 $(document).ready(function() {
     $(".qanda li p a").click(function(){
-        $(this).parent().parent().next().slideToggle(150);
+        $(this).parent().parent().next().slideToggle(200);
         return false;
     });
     $(".qanda li p a").parent().parent().next().hide();
