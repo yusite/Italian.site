@@ -1,4 +1,4 @@
 italian.site
 ============
 
-A weblog written in Italian.
+意大利语练习。
