@@ -16,7 +16,7 @@ $(document).ready(function() {
     $(".qanda li .button").parent().find(".answer").hide();
     $("#footer").hide();
     $(".hide_all").click(function(){
-        $(this).parentsUntil("sect1").find(".answer").fadeOut(200);
+        $(this).parentsUntil(".sect1").find(".answer").fadeOut(200);
         return false;
     });
 });
