@@ -11,6 +11,7 @@
 $(document).ready(function() {
     $(".qanda li p a").click(function(){
         $(this).parent().parent().next().slideToggle();
+        return false;
     });
     $(".qanda li p a").parent().parent().next().hide();
     $("#footer").hide();
