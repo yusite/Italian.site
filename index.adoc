@@ -6,6 +6,7 @@
 :linkcss:
 :stylesheet: mystyle.css
 :linkattrs:
+:docinfo1:
 
 == 日期相关
 
