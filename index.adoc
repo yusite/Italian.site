@@ -10,6 +10,8 @@
 
 == 日期相关
 
+link:#[隐藏全部答案, role="button turquoise hide_all"]
+
 [qanda]
 今天是星期几？ ::
 link:#[答案：, role="button"] [answer]*Che giorno è oggi?*
@@ -17,6 +19,8 @@ link:#[答案：, role="button"] [answer]*Che giorno è oggi?*
 link:#[答案：, role="button"] [answer]*Quanti ne abbiamo oggi?*
 
 == 天气相关
+
+link:#[隐藏全部答案, role="button turquoise hide_all"]
 
 [qanda]
 多好的一天啊！ ::
