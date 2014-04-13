@@ -36,6 +36,15 @@ a.button {
 .button.hide_all {
   margin-left: 0;
 }
+
+p.tableblock {
+  white-space: nowrap;
+  overflow: auto;
+}
+
+table {
+  table-layout:fixed;
+}
 	
 .button {
   color: #fff; padding: 3px 7px 6px 5px; background-color: #bc1815; border: none; margin-left: 10px; position: relative;;

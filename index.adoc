@@ -17,9 +17,9 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 === 体育运动
 
-[cols="2,3,2,3"]
+[cols="6,10,6,10"]
 |===
-|中文 |意大利语 |中文 |意大利语
+|中文 |意文 |中文 |意文
 
 .^|link:#[足球]
 .^|Calcio
@@ -39,9 +39,9 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 === 天气
 
-[cols="2,3,2,3"]
+[cols="6,10,6,10"]
 |===
-|中文 |意大利语 |中文 |意大利语
+|中文 |意文 |中文 |意文
 
 .^|link:#[潮湿]
 .^|Afoso
