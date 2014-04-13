@@ -9,8 +9,9 @@
 :docinfo1:
 :icons: font
 
+通过手机便可以轻松访问本练习题，随时随地背诵意大利语。
 
-CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
+link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 == 日期相关
 
