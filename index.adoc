@@ -13,7 +13,7 @@
 
 CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
-== 词汇
+== 常用词汇
 
 === 体育运动
 
@@ -58,7 +58,6 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 .^|link:#[晴朗]
 .^|Soleggiato
 |===
-
 
 == 句子翻译
 
