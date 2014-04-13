@@ -17,7 +17,7 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 === 体育运动
 
-[cols="2,4,2,4"]
+[cols="2,3,2,3"]
 |===
 |中文 |意大利语 |中文 |意大利语
 
@@ -39,7 +39,7 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 === 天气
 
-[cols="2,4,2,4"]
+[cols="2,3,2,3"]
 |===
 |中文 |意大利语 |中文 |意大利语
 
