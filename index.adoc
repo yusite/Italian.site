@@ -8,9 +8,9 @@
 :linkattrs:
 :docinfo1:
 
-== 日期相关
-
 link:#[隐藏全部翻译, role="button turquoise hide_all"]
+
+== 日期相关
 
 [qanda]
 今天是星期几？link:#[译, role="button"]::
@@ -20,8 +20,6 @@ link:#[隐藏全部翻译, role="button turquoise hide_all"]
 [answer]#Quanti ne abbiamo oggi?#
 
 == 天气相关
-
-link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 [qanda]
 多好的一天啊！link:#[译, role="button"]::
