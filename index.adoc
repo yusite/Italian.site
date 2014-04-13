@@ -13,7 +13,56 @@
 
 CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
-== 日期相关
+== 词汇
+
+=== 体育运动
+
+[cols="2,4,2,4"]
+|===
+|中文 |意大利语 |中文 |意大利语
+
+.^|link:#[足球]
+.^|Calcio
+.^|link:#[射箭]
+.^|Tiro con l'arco
+
+.^|link:#[网球]
+.^|Campi da tennis
+.^|link:#[排球]
+.^|Pallavolo
+
+.^|link:#[跑步]
+.^|In esecuzione
+.^|link:#[游泳]
+.^|Nuoto
+|===
+
+=== 天气
+
+[cols="2,4,2,4"]
+|===
+|中文 |意大利语 |中文 |意大利语
+
+.^|link:#[潮湿]
+.^|Afoso
+.^|link:#[多云]
+.^|Nuvoloso
+
+.^|link:#[下雪]
+.^|Nevica
+.^|link:#[下雨]
+.^|Piove
+
+.^|link:#[刮风]
+.^|Vento
+.^|link:#[晴朗]
+.^|Soleggiato
+|===
+
+
+== 句子翻译
+
+=== 日期相关
 
 [qanda]
 今天是星期几？link:#[译, role="button"]::
@@ -22,7 +71,7 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 今天的日期是？link:#[译, role="button"]::
 [answer]#Quanti ne abbiamo oggi?#
 
-== 天气相关
+=== 天气相关
 
 [qanda]
 多好的一天啊！link:#[译, role="button"]::
@@ -30,15 +79,6 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 天气很热/冷link:#[译, role="button"]::
 [answer]#Fa molto caldo/freddo.#
-
-潮湿/多云link:#[译, role="button"]::
-[answer]#Afoso/Nuvoloso#
-
-下雨link:#[译, role="button"]::
-[answer]#Piove#
-
-下雪link:#[译, role="button"]::
-[answer]#Nevica#
 
 刮风了link:#[译, role="button"]::
 [answer]#C'è vento.#

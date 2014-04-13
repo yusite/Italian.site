@@ -9,7 +9,13 @@ $(document).ready(function() {
     $("#footer").hide();
     $("a.hide_all").click(function(){
     	$(".qanda p em").parent().next().hide();
+        $("table tr td a").parent().parent().next().children().hide();
     	return false;
+    });
+    $("table tr td a").parent().parent().next().children().hide();
+    $("table tr td a").click(function(){
+        $(this).parent().parent().next().children().fadeToggle();
+        return false;
     });
 });
 </script>

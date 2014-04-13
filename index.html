@@ -18,7 +18,13 @@ $(document).ready(function() {
     $("#footer").hide();
     $("a.hide_all").click(function(){
     	$(".qanda p em").parent().next().hide();
+        $("table tr td a").parent().parent().next().children().hide();
     	return false;
+    });
+    $("table tr td a").parent().parent().next().children().hide();
+    $("table tr td a").click(function(){
+        $(this).parent().parent().next().children().fadeToggle();
+        return false;
     });
 });
 </script>
@@ -31,8 +37,20 @@ $(document).ready(function() {
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_">1. 日期相关</a></li>
-<li><a href="#__2">2. 天气相关</a></li>
+<li><a href="#_">1. 词汇</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#__2">1.1. 体育运动</a></li>
+<li><a href="#__3">1.2. 天气</a></li>
+</ul>
+</li>
+<li><a href="#__4">2. 句子翻译</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#__5">2.1. 日期相关</a></li>
+<li><a href="#__6">2.2. 天气相关</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -57,8 +75,95 @@ $(document).ready(function() {
 </div>
 </div>
 <div class="sect1">
-<h2 id="_">1. 日期相关</h2>
+<h2 id="_">1. 词汇</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="__2">1.1. 体育运动</h3>
+<table class="tableblock frame-all grid-all" style="width:100%; ">
+<colgroup>
+<col style="width:16%;">
+<col style="width:33%;">
+<col style="width:16%;">
+<col style="width:33%;"> 
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">中文</th>
+<th class="tableblock halign-left valign-top">意大利语</th>
+<th class="tableblock halign-left valign-top">中文</th>
+<th class="tableblock halign-left valign-top">意大利语</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">足球</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Calcio</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">射箭</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Tiro con l&#8217;arco</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">网球</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Campi da tennis</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">排球</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Pallavolo</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">跑步</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">In esecuzione</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">游泳</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Nuoto</p></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div class="sect2">
+<h3 id="__3">1.2. 天气</h3>
+<table class="tableblock frame-all grid-all" style="width:100%; ">
+<colgroup>
+<col style="width:16%;">
+<col style="width:33%;">
+<col style="width:16%;">
+<col style="width:33%;"> 
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">中文</th>
+<th class="tableblock halign-left valign-top">意大利语</th>
+<th class="tableblock halign-left valign-top">中文</th>
+<th class="tableblock halign-left valign-top">意大利语</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">潮湿</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Afoso</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">多云</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Nuvoloso</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">下雪</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Nevica</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">下雨</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Piove</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">刮风</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Vento</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">晴朗</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Soleggiato</p></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="__4">2. 句子翻译</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="__5">2.1. 日期相关</h3>
 <div class="qlist qanda">
 <ol>
 <li>
@@ -72,10 +177,8 @@ $(document).ready(function() {
 </ol>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="__2">2. 天气相关</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="__6">2.2. 天气相关</h3>
 <div class="qlist qanda">
 <ol>
 <li>
@@ -85,18 +188,6 @@ $(document).ready(function() {
 <li>
 <p><em>天气很热/冷<a href="#" class="button">译</a></em></p>
 <p><span class="answer">Fa molto caldo/freddo.</span></p>
-</li>
-<li>
-<p><em>潮湿/多云<a href="#" class="button">译</a></em></p>
-<p><span class="answer">Afoso/Nuvoloso</span></p>
-</li>
-<li>
-<p><em>下雨<a href="#" class="button">译</a></em></p>
-<p><span class="answer">Piove</span></p>
-</li>
-<li>
-<p><em>下雪<a href="#" class="button">译</a></em></p>
-<p><span class="answer">Nevica</span></p>
 </li>
 <li>
 <p><em>刮风了<a href="#" class="button">译</a></em></p>
@@ -111,9 +202,10 @@ $(document).ready(function() {
 </div>
 </div>
 </div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2014-04-13 03:55:33 CEST
+Last updated 2014-04-13 13:00:09 CEST
 </div>
 </div>
 </body>
