@@ -10,12 +10,7 @@
 :icons: font
 
 
-TIP: 通过手机便可以轻松访问本练习题，随时随地背诵意大利语。
-如有意订制自己的练习题，可以随时发邮件与我联系。
-
 CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
-
-{empty} +
 
 == 日期相关
 
