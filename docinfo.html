@@ -1,15 +1,15 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-    $(".qanda li .button").click(function(){
-        $(this).parent().find(".answer").fadeToggle(200);
+    $(".qanda a.button").click(function(){
+        $(this).parent().parent().next().fadeToggle(200);
         return false;
     });
-    $(".qanda li .button").parent().find(".answer").hide();
+    $(".qanda p em").parent().next().hide();
     $("#footer").hide();
-    $(".hide_all").click(function(){
-        $(this).parentsUntil(".sect1").find(".answer").fadeOut(200);
-        return false;
+    $("a.hide_all").click(function(){
+    	$(".qanda p em").parent().next().hide();
+    	return false;
     });
 });
 </script>

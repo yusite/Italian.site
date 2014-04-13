@@ -4,27 +4,27 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="generator" content="Asciidoctor 0.1.4">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>意大利语例句练习</title>
+<title>意大利语练习</title>
 <link rel="stylesheet" href="./mystyle.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-    $(".qanda li .button").click(function(){
-        $(this).parent().find(".answer").fadeToggle(200);
+    $(".qanda a.button").click(function(){
+        $(this).parent().parent().next().fadeToggle(200);
         return false;
     });
-    $(".qanda li .button").parent().find(".answer").hide();
+    $(".qanda p em").parent().next().hide();
     $("#footer").hide();
-    $(".hide_all").click(function(){
-        $(this).parentsUntil(".sect1").find(".answer").fadeOut(200);
-        return false;
+    $("a.hide_all").click(function(){
+    	$(".qanda p em").parent().next().hide();
+    	return false;
     });
 });
 </script>
 </head>
 <body class="article">
 <div id="header">
-<h1>意大利语例句练习</h1>
+<h1>意大利语练习</h1>
 <span id="author" class="author">于子杰</span><br>
 <span id="email" class="email"><a href="mailto:feedback@yuz.me">feedback@yuz.me</a></span><br>
 <div id="toc" class="toc">
@@ -40,17 +40,17 @@ $(document).ready(function() {
 <h2 id="_">1. 日期相关</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><a href="#" class="button turquoise hide_all">隐藏全部答案</a></p>
+<p><a href="#" class="button turquoise hide_all">隐藏全部翻译</a></p>
 </div>
 <div class="qlist qanda">
 <ol>
 <li>
-<p><em>今天是星期几？ </em></p>
-<p><a href="#" class="button">答案：</a> <strong class="answer">Che giorno è oggi?</strong></p>
+<p><em>今天是星期几？<a href="#" class="button">译</a></em></p>
+<p><span class="answer">Che giorno è oggi?</span></p>
 </li>
 <li>
-<p><em>今天的日期是？ </em></p>
-<p><a href="#" class="button">答案：</a> <strong class="answer">Quanti ne abbiamo oggi?</strong></p>
+<p><em>今天的日期是？<a href="#" class="button">译</a></em></p>
+<p><span class="answer">Quanti ne abbiamo oggi?</span></p>
 </li>
 </ol>
 </div>
@@ -60,37 +60,37 @@ $(document).ready(function() {
 <h2 id="__2">2. 天气相关</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><a href="#" class="button turquoise hide_all">隐藏全部答案</a></p>
+<p><a href="#" class="button turquoise hide_all">隐藏全部翻译</a></p>
 </div>
 <div class="qlist qanda">
 <ol>
 <li>
-<p><em>多好的一天啊！ </em></p>
-<p><a href="#" class="button">答案：</a> <strong class="answer">È una bellissima goirnata!</strong></p>
+<p><em>多好的一天啊！<a href="#" class="button">译</a></em></p>
+<p><span class="answer">È una bellissima goirnata!</span></p>
 </li>
 <li>
-<p><em>天气很热/冷 </em></p>
-<p><a href="#" class="button">答案：</a> <strong class="answer">Fa molto caldo/freddo.</strong></p>
+<p><em>天气很热/冷<a href="#" class="button">译</a></em></p>
+<p><span class="answer">Fa molto caldo/freddo.</span></p>
 </li>
 <li>
-<p><em>潮湿/多云 </em></p>
-<p><a href="#" class="button">答案：</a> <strong class="answer">Afoso/Nuvoloso</strong></p>
+<p><em>潮湿/多云<a href="#" class="button">译</a></em></p>
+<p><span class="answer">Afoso/Nuvoloso</span></p>
 </li>
 <li>
-<p><em>下雨 </em></p>
-<p><a href="#" class="button">答案：</a> <strong class="answer">Piove</strong></p>
+<p><em>下雨<a href="#" class="button">译</a></em></p>
+<p><span class="answer">Piove</span></p>
 </li>
 <li>
-<p><em>下雪 </em></p>
-<p><a href="#" class="button">答案：</a> <strong class="answer">Nevica</strong></p>
+<p><em>下雪<a href="#" class="button">译</a></em></p>
+<p><span class="answer">Nevica</span></p>
 </li>
 <li>
-<p><em>刮风了 </em></p>
-<p><a href="#" class="button">答案：</a> <strong class="answer">C'è vento.</strong></p>
+<p><em>刮风了<a href="#" class="button">译</a></em></p>
+<p><span class="answer">C'è vento.</span></p>
 </li>
 <li>
-<p><em>天气预报说了什么？ </em></p>
-<p><a href="#" class="button">答案：</a> <strong class="answer">Come sono le previsioni?</strong></p>
+<p><em>天气预报说了什么？<a href="#" class="button">译</a></em></p>
+<p><span class="answer">Come sono le previsioni?</span></p>
 </li>
 </ol>
 </div>
@@ -99,7 +99,7 @@ $(document).ready(function() {
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2014-04-12 23:04:02 CEST
+Last updated 2014-04-13 01:42:56 CEST
 </div>
 </div>
 </body>
