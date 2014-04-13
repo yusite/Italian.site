@@ -1,14 +1,20 @@
 = 意大利语练习
 :author: 于子杰
 :email: feedback@yuz.me
-:toc:
+:toc: right
 :numbered:
 :linkcss:
 :stylesheet: mystyle.css
 :linkattrs:
 :docinfo1:
+:icons: font
 
-link:#[隐藏全部翻译, role="button turquoise hide_all"]
+
+TIP: 通过手机便可以轻松访问本练习题，随时随地背诵意大利语。
+使用方法：点击“译”字便可检查您翻译得是否正确。
+如有意订制自己的练习题，可以随时发邮件与我联系。
+
+CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 == 日期相关
 
