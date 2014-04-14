@@ -9,11 +9,13 @@
 :docinfo1:
 :icons: font
 
-TIP: 通过手机便可以轻松访问本练习题，随时随地背诵意大利语。
+TIP: 通过手机随时随地背诵意大利语。
 
 == 动作
 
 === 单词
+
+CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 [cols="2*"]
 |===
@@ -46,6 +48,8 @@ TIP: 通过手机便可以轻松访问本练习题，随时随地背诵意大利
 == 天气
 
 === 单词
+
+CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 [cols="2*"]
 |===

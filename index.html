@@ -10,15 +10,15 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-    $(".qanda a.button").click(function(){
+    $(".qanda a.button").click(function(event){
+        event.preventDefault();
         $(this).parent().parent().next().fadeToggle();
-        return false;
     });
     $(".qanda p em").parent().next().hide();
     $("#footer").hide();
-    $("a.hide_all").click(function(){
-    	$(".qanda p em").parent().next().hide();
-    	return false;
+    $("a.hide_all").click(function(event){
+        event.preventDefault();
+        location.reload();
     });
     $("table td a").click(function(event){
         event.preventDefault();
@@ -71,7 +71,7 @@ $(document).ready(function() {
 <i class="icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-通过手机便可以轻松访问本练习题，随时随地背诵意大利语。
+通过手机随时随地背诵意大利语。
 </td>
 </tr>
 </table>
@@ -83,6 +83,18 @@ $(document).ready(function() {
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="__2">1.1. 单词</h3>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+<a href="#" class="button turquoise hide_all">隐藏全部翻译</a>
+</td>
+</tr>
+</table>
+</div>
 <table class="tableblock frame-all grid-all" style="width:100%; ">
 <colgroup>
 <col style="width:50%;">
@@ -148,6 +160,18 @@ $(document).ready(function() {
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="__4">2.1. 单词</h3>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+<a href="#" class="button turquoise hide_all">隐藏全部翻译</a>
+</td>
+</tr>
+</table>
+</div>
 <table class="tableblock frame-all grid-all" style="width:100%; ">
 <colgroup>
 <col style="width:50%;">
@@ -242,7 +266,7 @@ $(document).ready(function() {
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2014-04-14 23:37:15 CEST
+Last updated 2014-04-14 23:48:19 CEST
 </div>
 </div>
 </body>

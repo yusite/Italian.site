@@ -1,15 +1,15 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-    $(".qanda a.button").click(function(){
+    $(".qanda a.button").click(function(event){
+        event.preventDefault();
         $(this).parent().parent().next().fadeToggle();
-        return false;
     });
     $(".qanda p em").parent().next().hide();
     $("#footer").hide();
-    $("a.hide_all").click(function(){
-    	$(".qanda p em").parent().next().hide();
-    	return false;
+    $("a.hide_all").click(function(event){
+        event.preventDefault();
+        location.reload();
     });
     $("table td a").click(function(event){
         event.preventDefault();
