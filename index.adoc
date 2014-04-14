@@ -13,33 +13,83 @@
 
 CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
-== 常用词汇
+== 动作
 
-=== 体育运动
+=== 单词
 
-[cols="6,10,6,10"]
+[cols="2,3,2,3"]
 |===
 |中文 |意文 |中文 |意文
 
-.^|link:#[足球]
-.^|Calcio
-.^|link:#[射箭]
-.^|Tiro con l'arco
+.^|link:#[打扫]
+.^|Pulire
+.^|link:#[哭]
+.^|Piangere
 
-.^|link:#[网球]
-.^|Campi da tennis
-.^|link:#[排球]
-.^|Pallavolo
+.^|link:#[画画]
+.^|Disegnare
+.^|link:#[喝]
+.^|Bere
 
+.^|link:#[吃]
+.^|Mangiare
+.^|link:#[飞]
+.^|Volare
+
+.^|link:#[给予]
+.^|Dare
 .^|link:#[跑步]
-.^|In esecuzione
-.^|link:#[游泳]
-.^|Nuoto
+.^|Correre
+
+.^|link:#[跳]
+.^|Saltare
+.^|link:#[大笑]
+.^|Ridere
+
+.^|link:#[学习]
+.^|Imparare
+.^|link:#[读]
+.^|Leggere
+
+.^|link:#[推]
+.^|Spingere
+.^|link:#[拉]
+.^|Tirare
+
+.^|link:#[缝]
+.^|Cucire
+.^|link:#[坐]
+.^|Sedere
+
+.^|link:#[睡觉]
+.^|Dormire
+.^|link:#[说话]
+.^|Parlare
+
+.^|link:#[授课]
+.^|Insegnare
+.^|link:#[想]
+.^|Pensare
+
+.^|link:#[微笑]
+.^|Sorridere
+.^|link:#[投掷]
+.^|Lanciare
+
+.^|link:#[挥手]
+3+.^|Fare un cenno
+
+.^|link:#[挥手]
+.^|Fare un cenno
+.^|link:#[挥手]
+.^|Fare un cenno
 |===
 
-=== 天气
+== 天气
 
-[cols="6,10,6,10"]
+=== 单词
+
+[cols="2,3,2,3"]
 |===
 |中文 |意文 |中文 |意文
 
@@ -59,18 +109,7 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 .^|Soleggiato
 |===
 
-== 句子翻译
-
-=== 日期相关
-
-[qanda]
-今天是星期几？link:#[译, role="button"]::
-[answer]#Che giorno è oggi?#
-
-今天的日期是？link:#[译, role="button"]::
-[answer]#Quanti ne abbiamo oggi?#
-
-=== 天气相关
+=== 句子
 
 [qanda]
 多好的一天啊！link:#[译, role="button"]::
@@ -84,3 +123,14 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 天气预报说了什么？link:#[译, role="button"]::
 [answer]#Come sono le previsioni?#
+
+== 日期
+
+=== 句子
+
+[qanda]
+今天是星期几？link:#[译, role="button"]::
+[answer]#Che giorno è oggi?#
+
+今天的日期是？link:#[译, role="button"]::
+[answer]#Quanti ne abbiamo oggi?#
