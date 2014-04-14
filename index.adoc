@@ -23,7 +23,7 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 .^|link:#[打扫]
 .^|Pulire
-.^|link:#[哭]
+.^|link:#[大哭]
 .^|Piangere
 
 .^|link:#[画画]
@@ -77,12 +77,9 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 .^|Lanciare
 
 .^|link:#[挥手]
-3+.^|Fare un cenno
-
-.^|link:#[挥手]
 .^|Fare un cenno
-.^|link:#[挥手]
-.^|Fare un cenno
+.^|link:#[哭泣]
+.^|Piangere
 |===
 
 == 天气
