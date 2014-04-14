@@ -18,7 +18,6 @@ $(document).ready(function() {
     $("#footer").hide();
     $("a.hide_all").click(function(){
     	$(".qanda p em").parent().next().hide();
-        $("table tr td a").parent().parent().next().children().hide();
     	return false;
     });
     $("table td a").click(function(event){
@@ -68,18 +67,6 @@ $(document).ready(function() {
 <div class="paragraph">
 <p>通过手机便可以轻松访问本练习题，随时随地背诵意大利语。</p>
 </div>
-<div class="admonitionblock caution">
-<table>
-<tr>
-<td class="icon">
-<i class="icon-caution" title="Caution"></i>
-</td>
-<td class="content">
-<a href="#" class="button turquoise hide_all">隐藏全部翻译</a>
-</td>
-</tr>
-</table>
-</div>
 </div>
 </div>
 <div class="sect1">
@@ -89,48 +76,55 @@ $(document).ready(function() {
 <h3 id="__2">1.1. 单词</h3>
 <table class="tableblock frame-all grid-all" style="width:100%; ">
 <colgroup>
-<col style="width:33%;">
-<col style="width:33%;">
-<col style="width:33%;"> 
+<col style="width:50%;">
+<col style="width:50%;"> 
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">打扫</a> <strong>Pulire</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">大哭</a> <strong>Piangere</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">画画</a> <strong>Disegnare</strong></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">画画</a> <strong>Disegnare</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">喝</a> <strong>Bere</strong></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">吃</a> <strong>Mangiare</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">飞</a> <strong>Volare</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">给予</a> <strong>Dare</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">跑步</a> <strong>Correre</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">跳</a> <strong>Saltare</strong></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">跳</a> <strong>Saltare</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">大笑</a> <strong>Ridere</strong></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">学习</a> <strong>Imparare</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">读</a> <strong>Leggere</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">推</a> <strong>Spingere</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">拉</a> <strong>Tirare</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">缝</a> <strong>Cucire</strong></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">缝</a> <strong>Cucire</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">坐</a> <strong>Sedere</strong></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">睡觉</a> <strong>Dormire</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">说话</a> <strong>Parlare</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">授课</a> <strong>Insegnare</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">想</a> <strong>Pensare</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">微笑</a> <strong>Sorridere</strong></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">微笑</a> <strong>Sorridere</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">投掷</a> <strong>Lanciare</strong></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">挥手</a> <strong>Fare un cenno</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">哭泣</a> <strong>Piangere</strong></p></td>
 </tr>
@@ -147,18 +141,19 @@ $(document).ready(function() {
 <h3 id="__4">2.1. 单词</h3>
 <table class="tableblock frame-all grid-all" style="width:100%; ">
 <colgroup>
-<col style="width:33%;">
-<col style="width:33%;">
-<col style="width:33%;"> 
+<col style="width:50%;">
+<col style="width:50%;"> 
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">潮湿</a> <strong>Afoso</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">多云</a> <strong>Nuvoloso</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">下雪</a> <strong>Nevica</strong></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">下雪</a> <strong>Nevica</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">下雨</a> <strong>Piove</strong></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">刮风</a> <strong>Vento</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">晴朗</a> <strong>Soleggiato</strong></p></td>
 </tr>
@@ -168,6 +163,18 @@ $(document).ready(function() {
 </div>
 <div class="sect2">
 <h3 id="__5">2.2. 句子</h3>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+<a href="#" class="button turquoise hide_all">隐藏全部翻译</a>
+</td>
+</tr>
+</table>
+</div>
 <div class="qlist qanda">
 <ol>
 <li>
@@ -196,6 +203,18 @@ $(document).ready(function() {
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="__7">3.1. 句子</h3>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+<a href="#" class="button turquoise hide_all">隐藏全部翻译</a>
+</td>
+</tr>
+</table>
+</div>
 <div class="qlist qanda">
 <ol>
 <li>
@@ -214,7 +233,7 @@ $(document).ready(function() {
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2014-04-14 23:18:58 CEST
+Last updated 2014-04-14 23:34:39 CEST
 </div>
 </div>
 </body>

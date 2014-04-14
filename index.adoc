@@ -15,62 +15,46 @@
 
 === 单词
 
-[cols="3*"]
+[cols="2*"]
 |===
-
 |link:#[打扫] *Pulire*
 |link:#[大哭] *Piangere*
-
 |link:#[画画] *Disegnare*
 |link:#[喝] *Bere*
-
 |link:#[吃] *Mangiare*
 |link:#[飞] *Volare*
-
 |link:#[给予] *Dare*
 |link:#[跑步] *Correre*
-
 |link:#[跳] *Saltare*
 |link:#[大笑] *Ridere*
-
 |link:#[学习] *Imparare*
 |link:#[读] *Leggere*
-
 |link:#[推] *Spingere*
 |link:#[拉] *Tirare*
-
 |link:#[缝] *Cucire*
 |link:#[坐] *Sedere*
-
 |link:#[睡觉] *Dormire*
 |link:#[说话] *Parlare*
-
 |link:#[授课] *Insegnare*
 |link:#[想] *Pensare*
-
 |link:#[微笑] *Sorridere*
 |link:#[投掷] *Lanciare*
-
 |link:#[挥手] *Fare un cenno*
 |link:#[哭泣] *Piangere*
-
 |===
 
 == 天气
 
 === 单词
 
-[cols="3*"]
+[cols="2*"]
 |===
-
 |link:#[潮湿] *Afoso*
 |link:#[多云] *Nuvoloso*
 |link:#[下雪] *Nevica*
-
 |link:#[下雨] *Piove*
 |link:#[刮风] *Vento*
 |link:#[晴朗] *Soleggiato*
-
 |===
 
 === 句子
