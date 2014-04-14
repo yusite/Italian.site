@@ -667,7 +667,7 @@ a.button { font-size: 1em; }
 
 p.tableblock { white-space: nowrap; overflow: auto; }
 
-p.tableblock a { font-weight: bold; font-size: 1.2em; }
+p.tableblock a { font-size: 1.2em; }
 
 table { table-layout: fixed; }
 

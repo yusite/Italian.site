@@ -11,8 +11,6 @@
 
 通过手机便可以轻松访问本练习题，随时随地背诵意大利语。
 
-CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
-
 == 动作
 
 === 单词
@@ -77,6 +75,8 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 === 句子
 
+CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
+
 [qanda]
 多好的一天啊！link:#[译, role="button"]::
 [answer]#È una bellissima goirnata!#
@@ -93,6 +93,8 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 == 日期
 
 === 句子
+
+CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 [qanda]
 今天是星期几？link:#[译, role="button"]::
