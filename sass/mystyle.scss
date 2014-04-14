@@ -42,8 +42,13 @@ p.tableblock {
   overflow: auto;
 }
 
+p.tableblock a {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 table {
-  table-layout:fixed;
+  table-layout: fixed;
 }
 	
 .button {

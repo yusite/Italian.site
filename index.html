@@ -21,11 +21,14 @@ $(document).ready(function() {
         $("table tr td a").parent().parent().next().children().hide();
     	return false;
     });
-    $("table tr td a").parent().parent().next().children().hide();
-    $("table tr td a").click(function(){
-        $(this).parent().parent().next().children().fadeToggle();
-        return false;
+    $("table td a").click(function(event){
+        event.preventDefault();
+        $(this).clone().appendTo($(this).parent());
+        $(this).html($(this).next().html());
+        $(this).next().remove();
+        $(this).next().hide();
     });
+    $("table td p strong").hide();
 });
 </script>
 </head>
@@ -86,91 +89,50 @@ $(document).ready(function() {
 <h3 id="__2">1.1. 单词</h3>
 <table class="tableblock frame-all grid-all" style="width:100%; ">
 <colgroup>
-<col style="width:20%;">
-<col style="width:30%;">
-<col style="width:20%;">
-<col style="width:30%;"> 
+<col style="width:33%;">
+<col style="width:33%;">
+<col style="width:33%;"> 
 </colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">中文</th>
-<th class="tableblock halign-left valign-top">意文</th>
-<th class="tableblock halign-left valign-top">中文</th>
-<th class="tableblock halign-left valign-top">意文</th>
-</tr>
-</thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">打扫</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Pulire</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">大哭</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Piangere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">打扫</a> <strong>Pulire</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">大哭</a> <strong>Piangere</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">画画</a> <strong>Disegnare</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">画画</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Disegnare</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">喝</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Bere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">喝</a> <strong>Bere</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">吃</a> <strong>Mangiare</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">飞</a> <strong>Volare</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">吃</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Mangiare</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">飞</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Volare</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">给予</a> <strong>Dare</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">跑步</a> <strong>Correre</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">跳</a> <strong>Saltare</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">给予</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Dare</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">跑步</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Correre</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">大笑</a> <strong>Ridere</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">学习</a> <strong>Imparare</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">读</a> <strong>Leggere</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">跳</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Saltare</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">大笑</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Ridere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">推</a> <strong>Spingere</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">拉</a> <strong>Tirare</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">缝</a> <strong>Cucire</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">学习</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Imparare</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">读</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Leggere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">坐</a> <strong>Sedere</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">睡觉</a> <strong>Dormire</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">说话</a> <strong>Parlare</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">推</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Spingere</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">拉</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Tirare</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">授课</a> <strong>Insegnare</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">想</a> <strong>Pensare</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">微笑</a> <strong>Sorridere</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">缝</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Cucire</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">坐</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Sedere</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">睡觉</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Dormire</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">说话</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Parlare</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">授课</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Insegnare</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">想</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Pensare</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">微笑</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Sorridere</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">投掷</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Lanciare</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">挥手</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Fare un cenno</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">哭泣</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Piangere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">投掷</a> <strong>Lanciare</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">挥手</a> <strong>Fare un cenno</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">哭泣</a> <strong>Piangere</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -185,37 +147,20 @@ $(document).ready(function() {
 <h3 id="__4">2.1. 单词</h3>
 <table class="tableblock frame-all grid-all" style="width:100%; ">
 <colgroup>
-<col style="width:20%;">
-<col style="width:30%;">
-<col style="width:20%;">
-<col style="width:30%;"> 
+<col style="width:33%;">
+<col style="width:33%;">
+<col style="width:33%;"> 
 </colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">中文</th>
-<th class="tableblock halign-left valign-top">意文</th>
-<th class="tableblock halign-left valign-top">中文</th>
-<th class="tableblock halign-left valign-top">意文</th>
-</tr>
-</thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">潮湿</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Afoso</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">多云</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Nuvoloso</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">潮湿</a> <strong>Afoso</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">多云</a> <strong>Nuvoloso</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">下雪</a> <strong>Nevica</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">下雪</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Nevica</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">下雨</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Piove</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">刮风</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Vento</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="#">晴朗</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Soleggiato</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">下雨</a> <strong>Piove</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">刮风</a> <strong>Vento</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#">晴朗</a> <strong>Soleggiato</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -269,7 +214,7 @@ $(document).ready(function() {
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2014-04-14 15:55:04 CEST
+Last updated 2014-04-14 23:18:58 CEST
 </div>
 </div>
 </body>

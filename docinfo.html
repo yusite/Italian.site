@@ -12,10 +12,13 @@ $(document).ready(function() {
         $("table tr td a").parent().parent().next().children().hide();
     	return false;
     });
-    $("table tr td a").parent().parent().next().children().hide();
-    $("table tr td a").click(function(){
-        $(this).parent().parent().next().children().fadeToggle();
-        return false;
+    $("table td a").click(function(event){
+        event.preventDefault();
+        $(this).clone().appendTo($(this).parent());
+        $(this).html($(this).next().html());
+        $(this).next().remove();
+        $(this).next().hide();
     });
+    $("table td p strong").hide();
 });
 </script>
