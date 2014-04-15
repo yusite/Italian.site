@@ -2,18 +2,16 @@
 :author: 于子杰
 :email: feedback@yuz.me
 :toc: right
-:numbered:
 :linkcss:
 :stylesheet: mystyle.css
 :linkattrs:
 :docinfo1:
 
-== 动作
+== 常用动作
 
-=== 单词
-
-[cols="2*"]
+[cols="2*", options="header"]
 |===
+|单词 |单词
 |[ch]#打扫# [it]#Pulire#
 |[ch]#大哭# [it]#Piangere#
 |[ch]#画画# [it]#Disegnare#
@@ -42,10 +40,9 @@
 
 == 天气
 
-=== 单词
-
-[cols="2*"]
+[cols="2*", options="header"]
 |===
+|单词 |单词
 |[ch]#潮湿# [it]#Afoso#
 |[ch]#多云# [it]#Nuvoloso#
 |[ch]#下雪# [it]#Nevica#
@@ -54,7 +51,7 @@
 |[ch]#晴朗# [it]#Soleggiato#
 |===
 
-=== 句子
+=== 例句
 
 [qanda]
 多好的一天啊！link:#[译, role="button"]::
@@ -71,7 +68,7 @@
 
 == 日期
 
-=== 句子
+=== 例句
 
 [qanda]
 今天是星期几？link:#[译, role="button"]::

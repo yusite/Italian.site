@@ -49,6 +49,13 @@ p.tableblock a {
 table {
   table-layout: fixed;
 }
+
+table.tableblock.grid-all {
+  border-color: #e5e5e5 #dbdbdb #d2d2d2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
 	
 .button {
   color: #fff; padding: 3px 7px 6px 5px; background-color: #bc1815; border: none; margin-left: 10px; position: relative;;
