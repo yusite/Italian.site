@@ -669,7 +669,7 @@ p.tableblock { white-space: nowrap; overflow: auto; }
 
 p.tableblock a { font-size: 1.2em; }
 
-table { table-layout: fixed; }
+table { table-layout: fixed; margin-bottom: 2em; }
 
 table.tableblock.grid-all { border-color: #e5e5e5 #dbdbdb #d2d2d2; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
 

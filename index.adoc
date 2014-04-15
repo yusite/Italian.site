@@ -12,8 +12,6 @@
 
 == 常用动词
 
-=== 单词
-
 [cols="2*"]
 |===
 |[ch]#打扫# [it]#Pulire#
@@ -44,8 +42,6 @@
 
 == 天气
 
-=== 单词
-
 [cols="2*"]
 |===
 |[ch]#潮湿# [it]#Afoso#
@@ -55,8 +51,6 @@
 |[ch]#刮风# [it]#Vento#
 |[ch]#晴朗# [it]#Soleggiato#
 |===
-
-=== 句子
 
 [qanda]
 多好的一天啊！link:#[译, role="button"]::
@@ -72,8 +66,6 @@
 [answer]#Come sono le previsioni?#
 
 == 时间
-
-=== 句子
 
 [qanda]
 今天是星期几？link:#[译, role="button"]::
