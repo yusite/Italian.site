@@ -5,19 +5,16 @@ $(document).ready(function() {
         event.preventDefault();
         $(this).parent().parent().next().fadeToggle();
     });
-    $(".qanda p em").parent().next().hide();
+    $(".answer").parent().hide();
     $("#footer").hide();
-    $("a.hide_all").click(function(event){
+    $("table td .it").hide();
+    $("table td .ch").wrap("<a href='#'></a>");
+    $("table td p a").click(function(event){
         event.preventDefault();
-        location.reload();
-    });
-    $("table td a").click(function(event){
-        event.preventDefault();
-        $(this).clone().appendTo($(this).parent());
-        $(this).html($(this).next().html());
-        $(this).next().remove();
+        $(this).children().clone().appendTo($(this).parent());
+        $(this).html($(this).next());
+        $(this).children().show();
         $(this).next().hide();
     });
-    $("table td p strong").hide();
 });
 </script>

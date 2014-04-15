@@ -15,55 +15,49 @@ TIP: 通过手机随时随地背诵意大利语。
 
 === 单词
 
-CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
-
 [cols="2*"]
 |===
-|link:#[打扫] *Pulire*
-|link:#[大哭] *Piangere*
-|link:#[画画] *Disegnare*
-|link:#[喝] *Bere*
-|link:#[吃] *Mangiare*
-|link:#[飞] *Volare*
-|link:#[给予] *Dare*
-|link:#[跑步] *Correre*
-|link:#[跳] *Saltare*
-|link:#[大笑] *Ridere*
-|link:#[学习] *Imparare*
-|link:#[读] *Leggere*
-|link:#[推] *Spingere*
-|link:#[拉] *Tirare*
-|link:#[缝] *Cucire*
-|link:#[坐] *Sedere*
-|link:#[睡觉] *Dormire*
-|link:#[说话] *Parlare*
-|link:#[授课] *Insegnare*
-|link:#[想] *Pensare*
-|link:#[微笑] *Sorridere*
-|link:#[投掷] *Lanciare*
-|link:#[挥手] *Fare un cenno*
-|link:#[哭泣] *Piangere*
+|[ch]#打扫# [it]#Pulire#
+|[ch]#大哭# [it]#Piangere#
+|[ch]#画画# [it]#Disegnare#
+|[ch]#喝# [it]#Bere#
+|[ch]#吃# [it]#Mangiare#
+|[ch]#飞# [it]#Volare#
+|[ch]#给予# [it]#Dare#
+|[ch]#跑步# [it]#Correre#
+|[ch]#跳# [it]#Saltare#
+|[ch]#大笑# [it]#Ridere#
+|[ch]#学习# [it]#Imparare#
+|[ch]#读# [it]#Leggere#
+|[ch]#推# [it]#Spingere#
+|[ch]#拉# [it]#Tirare#
+|[ch]#缝# [it]#Cucire#
+|[ch]#坐# [it]#Sedere#
+|[ch]#睡觉# [it]#Dormire#
+|[ch]#说话# [it]#Parlare#
+|[ch]#授课# [it]#Insegnare#
+|[ch]#想# [it]#Pensare#
+|[ch]#微笑# [it]#Sorridere#
+|[ch]#投掷# [it]#Lanciare#
+|[ch]#挥手# [it]#Fare un cenno#
+|[ch]#哭泣# [it]#Piangere#
 |===
 
 == 天气
 
 === 单词
 
-CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
-
 [cols="2*"]
 |===
-|link:#[潮湿] *Afoso*
-|link:#[多云] *Nuvoloso*
-|link:#[下雪] *Nevica*
-|link:#[下雨] *Piove*
-|link:#[刮风] *Vento*
-|link:#[晴朗] *Soleggiato*
+|[ch]#潮湿# [it]#Afoso#
+|[ch]#多云# [it]#Nuvoloso#
+|[ch]#下雪# [it]#Nevica#
+|[ch]#下雨# [it]#Piove#
+|[ch]#刮风# [it]#Vento#
+|[ch]#晴朗# [it]#Soleggiato#
 |===
 
 === 句子
-
-CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 [qanda]
 多好的一天啊！link:#[译, role="button"]::
@@ -81,8 +75,6 @@ CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 == 日期
 
 === 句子
-
-CAUTION: link:#[隐藏全部翻译, role="button turquoise hide_all"]
 
 [qanda]
 今天是星期几？link:#[译, role="button"]::
