@@ -7,9 +7,6 @@
 :stylesheet: mystyle.css
 :linkattrs:
 :docinfo1:
-:icons: font
-
-TIP: 通过手机随时随地背诵意大利语。
 
 == 动作
 
