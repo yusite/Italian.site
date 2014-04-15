@@ -11,7 +11,7 @@
 
 [cols="2*", options="header"]
 |===
-|单词 |单词
+2+|单词
 |[ch]#打扫# [it]#Pulire#
 |[ch]#大哭# [it]#Piangere#
 |[ch]#画画# [it]#Disegnare#
@@ -42,7 +42,7 @@
 
 [cols="2*", options="header"]
 |===
-|单词 |单词
+2+|单词
 |[ch]#潮湿# [it]#Afoso#
 |[ch]#多云# [it]#Nuvoloso#
 |[ch]#下雪# [it]#Nevica#
