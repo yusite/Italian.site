@@ -9,9 +9,10 @@
 
 == 常用动作
 
-[cols="2*", options="header"]
+=== 单词
+
+[cols="2*"]
 |===
-2+|单词
 |[ch]#打扫# [it]#Pulire#
 |[ch]#大哭# [it]#Piangere#
 |[ch]#画画# [it]#Disegnare#
@@ -40,9 +41,10 @@
 
 == 天气
 
-[cols="2*", options="header"]
+=== 单词
+
+[cols="2*"]
 |===
-2+|单词
 |[ch]#潮湿# [it]#Afoso#
 |[ch]#多云# [it]#Nuvoloso#
 |[ch]#下雪# [it]#Nevica#
