@@ -56,6 +56,21 @@ table.tableblock.grid-all {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
+
+tbody {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: url(./images/table_bg.png);
+}
+
+table tr {
+  background: rgba(234,239,242,0.5);
+}
+
+table tr:nth-of-type(even) {
+  background: rgba(234,239,242,0.1);
+}
 	
 .button {
   color: #fff; padding: 3px 7px 6px 5px; background-color: #bc1815; border: none; margin-left: 10px; position: relative;;

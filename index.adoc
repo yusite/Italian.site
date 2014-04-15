@@ -6,8 +6,11 @@
 :stylesheet: mystyle.css
 :linkattrs:
 :docinfo1:
+:numbered:
 
-== 常用动作
+本网站专门为手机优化，使用手机便可随时随地背单词。任何改进建议请发邮件到：{email}
+
+== 常用动词
 
 === 单词
 
@@ -53,7 +56,7 @@
 |[ch]#晴朗# [it]#Soleggiato#
 |===
 
-=== 例句
+=== 句子
 
 [qanda]
 多好的一天啊！link:#[译, role="button"]::
@@ -68,9 +71,9 @@
 天气预报说了什么？link:#[译, role="button"]::
 [answer]#Come sono le previsioni?#
 
-== 日期
+== 时间
 
-=== 例句
+=== 句子
 
 [qanda]
 今天是星期几？link:#[译, role="button"]::
