@@ -3,6 +3,7 @@
 :email: feedback@yuz.me
 :toc: right
 :linkcss:
+:stylesdir: ..
 :stylesheet: mystyle.css
 :linkattrs:
 :docinfo1:

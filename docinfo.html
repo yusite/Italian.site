@@ -13,7 +13,7 @@ $(document).ready(function() {
         event.preventDefault();
         $(this).children().clone().appendTo($(this).parent());
         $(this).html($(this).next());
-        $(this).children().show();
+        $(this).children().fadeIn();
         $(this).next().hide();
     });
 });
