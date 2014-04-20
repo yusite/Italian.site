@@ -1,0 +1,43 @@
+= 意大利语练习
+:author: 于子杰
+:email: feedback@yuz.me
+:toc: right
+:linkcss:
+:stylesheet: mystyle.css
+:linkattrs:
+:docinfo1:
+:numbered:
+
+== 第一天
+
+[cols="2*"]
+|===
+|[ch]#壁画# [it]#affresco#
+|[ch]#园丁# [it]#giardiniere#
+|[ch]#沙子# [it]#sabbia#
+|[ch]#日程# [it]#agenda#
+|[ch]#实验室# [it]#laboratorio#
+|[ch]#盾牌# [it]#scudo#
+|[ch]#树# [it]#albero#
+|[ch]#酒、液体# [it]#liquore#
+|[ch]#大衣# [it]#soprabito#
+|[ch]#雕像# [it]#statua#
+|[ch]#文章# [it]#articolo#
+|[ch]#寺庙# [it]#tempio#
+|[ch]#味道# [it]#assaggiare#
+|[ch]#温泉# [it]#terme#
+|[ch]#行李# [it]#bagaglio#
+|[ch]#心理学家# [it]#psicologo#
+|[ch]#土地# [it]#terra#
+|[ch]#土地、农场# [it]#campagna#
+|[ch]#公共# [it]#pubblico#
+|[ch]#坟墓# [it]#tomba#
+|[ch]#首都、资产# [it]#capitale#
+|[ch]#女王# [it]#regina#
+|[ch]#记得# [it]#ricordare#
+|[ch]#窗帘# [it]#sipario#
+|[ch]#舞台# [it]#palco / palcoscenico#
+|[ch]#演员# [it]#attore#
+|[ch]#观众# [it]#spettatore#
+|[ch]#扶手椅# [it]#poltrone#
+|===

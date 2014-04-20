@@ -1,0 +1,15 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $("#footer").hide();
+    $("table td .it").hide();
+    $("table td .ch").wrap("<a href='#'></a>");
+    $("table td p a").click(function(event){
+        event.preventDefault();
+        $(this).children().clone().appendTo($(this).parent());
+        $(this).html($(this).next());
+        $(this).children().fadeIn();
+        $(this).next().hide();
+    });
+});
+</script>
